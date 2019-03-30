@@ -1,0 +1,28 @@
+.wrapper {
+    display: grid;
+    grid-gap: 8px;
+}
+
+/* just for Demo */
+.wrapper > * {
+    border: 1px solid red;
+}
+
+.mathjax,
+.input-box {
+    text-align: center;
+}
+.num-pad-center {
+    display: flex;
+    justify-content: center;
+}
+.num-pad {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-auto-rows: 50px;
+}
+
+.history > ul {
+    list-style: none;
+}
